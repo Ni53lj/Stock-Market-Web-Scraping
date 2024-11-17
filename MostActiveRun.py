@@ -26,7 +26,7 @@ def most_active_run():
 
     time.sleep(10)
     
-    with open(f"C:\\Users\\shini\\Downloads\\MA-Equities-CM-value-{day}-{month}-{year}.csv") as csv_file:
+    with open(#location of the csv file") as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
             file_company_name.write(row[0]+'\n')
