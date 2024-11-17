@@ -1,5 +1,5 @@
 def file_formatting():
-    with open("E:\\Python\\FILE_COMPANY_NAME_Main.txt",'r+') as edit_file:
+    with open(#locatio of FILE_COMPANY_NAME_Main.txt",'r+') as edit_file:
         lines = edit_file.readlines()
         edit_file.seek(0)
         #edit_file.truncate()
